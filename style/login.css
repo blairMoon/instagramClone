@@ -29,6 +29,7 @@
 }
 
 .blue-button {
+  cursor: pointer;
   width: 368px;
   background-color: rgb(196 225 251);
   border: none;

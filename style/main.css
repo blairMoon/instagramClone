@@ -161,9 +161,11 @@ p span {
   margin-top: 3px;
   margin-bottom: 8px;
 }
+.comment-bar {
+  display: flex;
+}
 .comment-bar input {
-  position: relative;
-  width: 596.5px;
+  width: 90%;
   height: 38px;
   border-bottom: none;
   border-left: none;
@@ -175,9 +177,10 @@ p span {
   padding-left: 10px;
 }
 .gaesi {
-  position: absolute;
-  left: 1150px;
-  top: 985px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  width: 10%;
   color: rgb(215 234 252);
 }
 .heart2 {
